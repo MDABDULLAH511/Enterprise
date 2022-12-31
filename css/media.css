@@ -1,0 +1,147 @@
+/* --------------------(max-width:1024)-------------------- */
+@media(max-width:1024px) {
+    .navbar-brand img {
+        width: 70px;
+        background: #fff;
+    }
+
+    .navbar .navbar-nav .nav-link {
+        margin-right: 10px;
+    }
+
+    .hero_right h1 {
+        font-size: 35px;
+    }
+
+    .gellary_1 {
+        margin-top: 85px;
+    }
+
+    .section_title h1 {
+        font-size: 32px;
+    }
+}
+
+/* --------------------(max-width:991)-------------------- */
+@media(max-width:991px) {
+    .hero_right {
+        text-align: center;
+    }
+
+    .hero_right button {
+        margin: auto;
+    }
+}
+
+/* --------------------(max-width:768)-------------------- */
+@media(max-width:768px) {
+    .hero_right {
+        text-align: center;
+    }
+
+    .hero_right button {
+        margin: auto;
+    }
+
+    .service_item {
+        height: 400px;
+        margin-bottom: 25px;
+    }
+
+    .about_part {
+        padding: 0px 20px;
+    }
+
+    .gellary_1 img {
+
+        width: 50%;
+    }
+
+    .gellary_2 img {
+        width: 50%;
+    }
+
+    .contact_part {
+        padding: 70px 20px 50px 20px;
+    }
+}
+
+/* --------------------(max-width:425)-------------------- */
+@media(max-width:426px) {
+    .navbar-brand img {
+        width: 50px;
+        background: #fff;
+    }
+
+    .sell_phone {
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+
+    .navbar-collapse {
+        background: #015f86;
+        padding: 30px 0;
+        border-radius: 10px;
+        margin-top: 15px;
+
+    }
+
+    .hero_right {
+        padding: 90px 30px 0px;
+    }
+
+    .hero_right h1 {
+        font-size: 45px;
+    }
+
+    .hero_right p {
+        margin: 40px 0px 50px;
+    }
+
+
+
+    .section_title h1 {
+        font-size: 25px;
+    }
+
+    .service_part {
+        padding: 60px 0px 60px 0px;
+    }
+
+    .service_Item_row {
+        padding: 0px 20px;
+    }
+
+    .about_content {
+        text-align: center;
+    }
+
+    .about_part {
+        padding: 0px 20px;
+    }
+
+    .gellary_1 img {
+
+        width: 70%;
+    }
+
+    .gellary_2 img {
+        width: 70%;
+    }
+
+
+
+
+
+
+
+    .contact_part {
+        padding: 60px 30px 50px 30px;
+    }
+
+    .gettouch_part form input[type="submit"] {
+        width: 55% !important;
+    }
+
+
+}

@@ -1,0 +1,621 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'PT Serif', serif; */
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+a {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* header{ 
+    width: 100%;
+    
+}*/
+.navbar {
+    background: #015f86c9;
+    height: 75px;
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
+    padding: 0;
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    transform: translateX(-50%);
+}
+
+
+
+.navbar-brand img {
+    width: 100px;
+    background: #fff;
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;
+    padding: 10px 0px;
+    margin-right: 15px;
+    transition: .5s all ease-out;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #faae3c;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #faae3c;
+}
+
+.navbar .navbar-nav .nav-link::before {
+    content: " ";
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    height: 3px;
+    width: 0%;
+    background-color: #faae3c;
+    transition: .5s all ease-in-out;
+
+}
+
+
+.navbar .navbar-nav .nav-link:hover:before {
+    width: 100%;
+
+}
+
+.navbar-dark .navbar-toggler {
+    box-shadow: none;
+    border: none;
+    color: rgba(255, 255, 255, .55);
+    border-color: rgba(255, 255, 255, .1);
+
+}
+
+/* nav button css */
+.nav-item button {
+    background: transparent;
+    border: 2px solid #f39c12;
+    padding: 10px 20px;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    /* text-transform: uppercase; */
+    font-family: 'Montserrat', sans-serif;
+    transition: .5s all ease-out;
+}
+
+.nav-item button:hover {
+    background: #f39c12;
+
+}
+
+/* sell phone css */
+.sell_phone {
+    margin-right: 15px;
+    font-size: 25px;
+    border: 2px solid #f39c12;
+    padding: 1px 15px;
+    transition: .5s all ease-out;
+}
+
+.sell_phone a {
+    color: #fff;
+}
+
+.sell_phone:hover {
+    background-color: #f39c12;
+}
+
+
+/* hero part css */
+.hero_part {
+    background-image: url(../images/240_F_110124767_OhX1sNaLCkZjWHnje9sPmKSnD5P4C9nR.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.hero_part::before {
+    content: " ";
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #015e86;
+    opacity: 0;
+    z-index: -1;
+
+
+}
+
+.hero_content {}
+
+.hero_right {
+
+    height: 100vh;
+    background-color: #015f86cc;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 90px 75px 0px;
+}
+
+.hero_right h1 {
+
+    font-family: 'PT Serif', serif;
+    color: #fff;
+    font-size: 38px;
+    font-weight: 500;
+}
+
+.hero_right p {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 40px 0px 30px;
+}
+
+.hero_right button {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 2px;
+    font-family: 'Montserrat', sans-serif;
+    background: transparent;
+    padding: 10px 30px;
+    border: 2px solid #f39c12;
+    transition: .5s all ease-out;
+}
+
+.hero_right button:hover {
+    background-color: #015f86;
+}
+
+
+/* service_part css start */
+.service_part {
+    background-image: url(../images/service\ bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 70px 0px 60px 0px;
+    position: relative;
+    z-index: 99;
+}
+
+.service_part::before {
+    content: " ";
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #d3d5d5;
+    opacity: 0.9;
+    z-index: -1;
+}
+
+
+
+.section_title h1 {
+    text-align: center;
+    font-family: 'PT Serif', serif;
+    color: #015f86;
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.section_title span {
+    display: block;
+    height: 5px;
+    border-radius: 2px;
+    width: 50%;
+    background: #f39c12;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 45px;
+}
+
+
+/* service_item css */
+.service_item {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 25px 15px;
+    height: 350px;
+    display: flex;
+    align-items: end;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 999;
+    border-radius: 5px;
+    transition: .5s all ease-in-out;
+}
+
+.service_item::before {
+    content: " ";
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    border-radius: 5px;
+    transition: .3s all ease-in-out;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#015f86+82,015f86+100&0.05+0,0.1+72,0.7+82,0.8+100 */
+    background: -moz-linear-gradient(top, rgba(1, 95, 134, 0.05) 0%, rgba(1, 95, 134, 0.1) 72%, rgba(1, 95, 134, 0.7) 82%, rgba(1, 95, 134, 0.8) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(1, 95, 134, 0.05) 0%, rgba(1, 95, 134, 0.1) 72%, rgba(1, 95, 134, 0.7) 82%, rgba(1, 95, 134, 0.8) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(1, 95, 134, 0.05) 0%, rgba(1, 95, 134, 0.1) 72%, rgba(1, 95, 134, 0.7) 82%, rgba(1, 95, 134, 0.8) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0d015f86', endColorstr='#cc015f86', GradientType=0);
+    /* IE6-9 */
+
+}
+
+.service_item:hover::before {
+    opacity: -1;
+}
+
+
+.service_item::after {
+    content: " ";
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    height: 0%;
+    width: 100%;
+    opacity: 0;
+    border-radius: 5px;
+    z-index: -1;
+    transition: .5s all ease-in-out;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#015f86+0,015f86+100&0.7+0,0.7+100 */
+    background: -moz-linear-gradient(top, rgba(1, 95, 134, 0.7) 0%, rgba(1, 95, 134, 0.7) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(1, 95, 134, 0.7) 0%, rgba(1, 95, 134, 0.7) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(1, 95, 134, 0.7) 0%, rgba(1, 95, 134, 0.7) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b3015f86', endColorstr='#b3015f86', GradientType=0);
+    /* IE6-9 */
+}
+
+.service_item:hover::after {
+    opacity: 1;
+    height: 100%;
+}
+
+
+.service_title h4 {
+
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .5px;
+    transition: .5s all ease-in-out;
+}
+
+.service_item:hover .service_title h4 {
+    opacity: -1;
+}
+
+
+.service_content {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: .5s all ease-in-out;
+}
+
+.service_item:hover .service_content {
+    top: 50%;
+    opacity: 1;
+}
+
+.service_content h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.service_content button {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 2px;
+    font-family: 'Montserrat', sans-serif;
+    background: transparent;
+    padding: 10px 30px;
+    border: 2px solid #f39c12;
+    text-transform: capitalize;
+    transition: .5s all ease-out;
+}
+
+.service_content button:hover {
+    background-color: #015f86;
+}
+
+
+.home_service {
+    background-image: url(../images/home\ service\ bg\ \(2\).jpg);
+
+}
+
+.retail {
+    background-image: url(../images/mattress.jpg);
+}
+
+.staffing {
+    background-image: url(../images/people.jpg);
+}
+
+.Real_estate {
+    background-image: url(../images/neighborhood.jpg);
+}
+
+
+/* about_part css start here */
+
+.about_part {
+
+    margin: 70px 0px;
+}
+
+.about_content {}
+
+.about_content h5 {
+
+    font-family: 'Montserrat', sans-serif;
+
+    margin-bottom: 15px;
+    color: #333333;
+}
+
+.about_content P {
+
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+}
+
+.gellary {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.gellary_1 {
+    text-align: center;
+    transform: rotate(-10deg);
+}
+
+.gellary_1 img {
+
+    width: 70%;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.gellary_2 {
+
+    text-align: center;
+    transform: rotate(-10deg);
+}
+
+.gellary_2 img {
+    width: 70%;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+
+
+/* contant_part css */
+
+.contact_part {
+
+    background: #015f86;
+    padding: 70px 0px 50px 0px;
+    border-bottom: 2px solid #ddd;
+}
+
+.contant_title h1 {
+
+    color: #fff;
+}
+
+.contant_title span {
+
+    width: 20%;
+}
+
+.contant_title p {
+
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 16px;
+    margin: 5px 0px 25px 0px;
+}
+
+
+.gettouch_part form input {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #f8f8f8;
+    border: navajowhite;
+    border: 2px solid #b0b0b0;
+    border-radius: 10px;
+    padding: 5px 10px;
+    outline: none;
+    background: transparent;
+    transition: .5s all ease-in-out;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.gettouch_part form input:focus {
+    background-color: transparent;
+    border-color: #f39c12;
+    color: #f39c12;
+}
+
+.gettouch_part form textarea {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #f8f8f8;
+    border: navajowhite;
+    border: 2px solid #b0b0b0;
+    border-radius: 10px;
+    padding: 5px 10px;
+    outline: none;
+    background: transparent;
+    transition: .5s all ease-in-out;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.gettouch_part form textarea:focus {
+    background-color: transparent;
+    border-color: #f39c12;
+    color: #f39c12;
+}
+
+
+.gettouch_part form label {
+    color: #f5f5f5;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.message_part input {
+    width: 95% !important;
+}
+
+
+.gettouch_part form input[type="submit"] {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    border: none;
+    padding: 12px 20px;
+    background: #f39c12;
+    border: 2px solid #f39c12;
+    text-transform: uppercase;
+    color: #fff;
+    width: 30% !important;
+    margin: auto !important;
+    border-radius: 2px;
+    transition: .5s all ease-in-out;
+}
+
+.gettouch_part form input[type="submit"]:hover {
+    background-color: #025274;
+    border-color: #b0b0b0;
+    ;
+}
+
+
+
+
+
+
+
+
+
+/* footer_part start here */
+.footer_part {
+
+    background: #015f86;
+    padding: 12px;
+}
+
+.footer {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright p {
+
+    color: ddd;
+    color: #ddd;
+    font-size: 14px;
+}
+
+.copyright p a {
+    color: #faae3c;
+    text-decoration: none;
+}
+
+.social_media ul {
+
+    display: flex;
+}
+
+.social_media ul li {
+
+    list-style: none;
+    margin-left: 20px;
+}
+
+.social_media ul li a {
+
+    font-size: 20px;
+    text-decoration: none;
+    color: #ddd;
+}
+
+.social_media ul li:hover a {
+    color: #f39c12;
+}
